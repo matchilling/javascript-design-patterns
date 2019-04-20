@@ -7,12 +7,12 @@ Singleton creational design pattern restricts the instantiation of a class to a 
 ```js
 class Singleton {
   constructor() {
-    console.log(Singleton.instance)
+    console.log(Singleton.instance);
     if (!!Singleton.instance) {
-      return Singleton.instance
+      return Singleton.instance;
     }
 
-    Singleton.instance = this
+    Singleton.instance = this;
   }
 }
 ```
@@ -20,13 +20,13 @@ class Singleton {
 ## Usage
 
 ```js
-const i = new Singleton()
-const j = new Singleton()
+const i = new Singleton();
+const j = new Singleton();
 
-console.log(i) // Singleton {}
-console.log(j) // Singleton {}
+console.log(i); // Singleton {}
+console.log(j); // Singleton {}
 
-console.log(i === j) // true
+console.log(i === j); // true
 ```
 
 ## Caveats

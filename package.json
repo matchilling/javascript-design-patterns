@@ -1,0 +1,32 @@
+{
+  "name": "javascript-design-patterns",
+  "version": "1.0.0",
+  "description": "A curated collection of idiomatic design & application patterns for JavaScript programming language.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --single-quote --trailing-comma=es5 --debug-check es5 README.md creational/**/*.md",
+    "lint:fix": "prettier --single-quote --trailing-comma=es5 es5 --write README.md creational/**/*.md",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matchilling/javascript-design-patterns.git"
+  },
+  "author": {
+    "name": "Mathias Schilling",
+    "email": "m@matchilling.com",
+    "url": "https://www.matchilling.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "design-patterns",
+    "idiomatic-js"
+  ],
+  "bugs": {
+    "url": "https://github.com/matchilling/javascript-design-patterns/issues"
+  },
+  "homepage": "https://github.com/matchilling/javascript-design-patterns#readme",
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  }
+}

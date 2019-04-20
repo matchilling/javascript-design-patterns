@@ -4,6 +4,8 @@
   "description": "A curated collection of idiomatic design & application patterns for JavaScript programming language.",
   "main": "index.js",
   "scripts": {
+    "gitbook:build": "gitbook build",
+    "gitbook:serve": "gitbook serve",
     "lint": "prettier --single-quote --trailing-comma=es5 --debug-check es5 README.md creational/**/*.md",
     "lint:fix": "prettier --single-quote --trailing-comma=es5 es5 --write README.md creational/**/*.md",
     "test": "npm run lint"
@@ -27,6 +29,7 @@
   },
   "homepage": "https://github.com/matchilling/javascript-design-patterns#readme",
   "devDependencies": {
+    "gitbook-cli": "^2.3.2",
     "prettier": "^1.17.0"
   }
 }

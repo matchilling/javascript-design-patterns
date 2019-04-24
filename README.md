@@ -8,6 +8,7 @@ Creational design patterns are design patterns that deal with object creation me
 | :---------------------------------------: | :---------------------------------------------- |
 | [Constructor](/creational/constructor.md) | Create multiple instances of the same object    |
 |   [Singleton](/creational/singleton.md)   | Restricts instantiation of a type to one object |
+|      [Module](/creational/module.md)      | Enables code encapsulation                      |
 
 ## Support & Contact
 

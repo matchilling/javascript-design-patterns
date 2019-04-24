@@ -6,8 +6,8 @@
   "scripts": {
     "gitbook:build": "gitbook build",
     "gitbook:serve": "gitbook serve",
-    "lint": "prettier --single-quote --trailing-comma=es5 --debug-check es5 README.md creational/**/*.md",
-    "lint:fix": "prettier --single-quote --trailing-comma=es5 es5 --write README.md creational/**/*.md",
+    "lint": "prettier --single-quote --trailing-comma=es5 --debug-check es5 *.md creational/**/*.md",
+    "lint:fix": "prettier --single-quote --trailing-comma=es5 es5 --write *.md creational/**/*.md",
     "test": "npm run lint"
   },
   "repository": {
